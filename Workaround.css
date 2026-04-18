@@ -1,0 +1,41 @@
+#heading {
+    color:red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background-color: rgb(182, 182, 233);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.logo img{
+    height: 45px;
+    width: 45px;
+    
+}
+.input-container{
+    position: relative;
+}
+.input-container div{
+   position: absolute;
+   top: 18px;
+   left: 18px;
+}
+.input-container input{
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px 10px 10px 32px;
+}
+.input-container input::placeholder{
+    padding-left: 0;
+    margin-left: 0;
+}
+.input-container input:focus{
+    outline: none;
+}
