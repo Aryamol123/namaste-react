@@ -17,3 +17,13 @@
   -Error Handling
   -Diagnosis
   -Different dev and prod builds
+
+  Two types of export / import
+
+  export default Component;
+  import Component from "path";
+  
+
+  # React Hooks
+  useState() - Superpowerful State variables in react
+  useEffect()
